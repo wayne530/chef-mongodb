@@ -50,6 +50,7 @@ Basically all settings defined in the Configuration File Options documentation p
 * `mongodb[:config][:smallfiles]` - Modify MongoDB to use a smaller default data file size
 * `mongodb[:config][:oplogsize]` - Specifies a maximum size in megabytes for the replication operation log
 * `mongodb[:config][:bind_ip]` - Configure from which address to accept connections
+* `mongodb[:config][:configdb]` - Use specified config db string for mongos instead of chef search-derived
 * `mongodb[:config][:<setting>]` - General MongoDB Configuration File option
 
 ### Cookbook specific attributes
